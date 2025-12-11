@@ -17,7 +17,6 @@ public class DatabaseConfig {
         return basicDataSource;
     }
 
-
     public DatabaseConfig(@Value("${datasource.url}") String url,
                           @Value("${datasource.username}") String username,
                           @Value("${datasource.password}") String password) {
